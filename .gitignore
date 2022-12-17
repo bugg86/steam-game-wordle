@@ -3,6 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Data files
+duplicates.json
+final_cleaned_steam_data.json
+final_steam_data.csv
+final_steam_data.xlsx
+raw_steam_data.json
+
 # User-specific files
 *.rsuser
 *.suo
