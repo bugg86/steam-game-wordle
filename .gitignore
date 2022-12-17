@@ -10,6 +10,15 @@ final_steam_data.csv
 final_steam_data.xlsx
 raw_steam_data.json
 
+# rest-api
+rest-api/node_modules
+
+# web-app
+web-app/node_modules
+web-app/.angular
+web-app/.vscode
+web-app/.editorconfig
+
 # User-specific files
 *.rsuser
 *.suo
