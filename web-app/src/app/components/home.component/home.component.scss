@@ -1,42 +1,5 @@
-:root {
-    --blue: rgb(61, 90, 254);
-    --light-blue: rgb(33, 150, 243);
-  }
-  
-  body {  
-    background-color: rgb(10, 10, 20); 
-    margin: 0px;
-  }
-
-  .container {
-    overflow: hidden;
-    object-fit: cover;
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    justify-content: center;
-  }
-
-  .game_container{
-    overflow: hidden;
-    /* width: 100%; */
-    /* width: clamp(0vw, 15vw, 25vw); */
-  }
-
-  .game {
-    top: 0;
-    height: 100%;
-    width: 25vw;
-    overflow: hidden;
-    object-fit: cover;
-    object-position: 50%;
-    color: white;
-    display: block;
-    opacity: .5;
-    transition: opacity .5s, width .6s
-  } 
-  
-  .game:hover {
-    opacity: 1;
-    width: 50vw;
-  }
+.balls {
+  color: rgb(189, 185, 185);
+  font-family: Quicksand;
+  background-color: #474E68;
+}
